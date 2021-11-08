@@ -19,7 +19,7 @@ snake.src = "img/snake.png"; // Указание нужного изображе
 apple.src = "img/apple.png"; 
 
 
-// При нажатии на какую-либо кнопку переключаем x++ или x--
+// При нажатии на какую-либо кнопку переключаем y++ или y--
 document.addEventListener("keydown", setMoveDirection);
 
 function setMoveDirection() {
